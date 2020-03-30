@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Logon from './pages/Logon';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello OmniStack
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+useState(0)
+
+  function increment(){
+    setCounter(counter +1);
+  }
+
+  return ( 
+   <div>
+    <Header>Contador: {counter}</Header>
+    <button onClick={increment}>Incrmentar</button>
     </div>
-  );
+    )
 }
 
 export default App;

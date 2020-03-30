@@ -1,0 +1,5 @@
+//JSX - Javascript XML
+//Componente é uma função que retornar o valor em HTML e CSS
+//Propriedades é o conceito de atributo repassados para componentes
+//Estados é a informação que será mantida no componente
+//Imutabilidade é a forma de manipular o estado de forma indireta
