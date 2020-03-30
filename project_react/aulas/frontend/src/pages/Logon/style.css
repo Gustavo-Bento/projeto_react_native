@@ -20,19 +20,3 @@
     font-size: 32px;
     margin-bottom: 32px;
 }
-.logon-container section.form form a{
-    display:flex;
-    align-items: center;
-    margin-top: 50px;
-    color:#41414d;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: opacity 0.5s;
-}
-.logon-container section.form form a png{
-    margin-right: 8px;
-}
-.logon-container section.form form a:hover{
-    opacity: 0.8;
-}
