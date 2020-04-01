@@ -9,7 +9,7 @@ import logoImg from '../../assets/logo.png';
 export default function Register(){
     return(
         <div className="register-container">
-            <div className="container">
+            <div className="content">
                 <section>
                     <img className="imagemlogo"src={logoImg} alt="solidariedade"/>
 
