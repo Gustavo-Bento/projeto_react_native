@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {FiLogIn} from 'react-icons/fi';
+import { FiLogIn } from 'react-icons/fi';
 
 import './style.css';
 

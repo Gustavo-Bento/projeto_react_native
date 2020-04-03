@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiArrowLeft} from ' react-icons/fi'
+import { FiArrowLeft} from 'react-icons/fi'
 
 import './style.css';
 
@@ -15,7 +15,7 @@ export default function NewIncident(){
 
                     <h1>Cadrastrar novo pedido ajuda</h1>
                     <p>Descreva seu pedido detalhadamente para que a comunidade possa te ajudar.</p>
-                    <Link className="back-link" to="/register">
+                    <Link className="back-link" to="/profile">
                         <FiArrowLeft size={16} color="#FFEED2"/>
                         Voltar para pagina home
                     </Link>

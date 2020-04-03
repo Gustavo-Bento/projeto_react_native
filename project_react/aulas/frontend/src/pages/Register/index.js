@@ -2,11 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {FiArrowLeft} from 'react-icons/fi';
 
+import api from '../../services/api'
 import './style.css';
 
 import logoImg from '../../assets/logo.png';
 
 export default function Register(){
+    function handleRegister(e){
+         e.preventDefault();
+    }
     return(               
         <div className="register-container">
             <div className="content">
